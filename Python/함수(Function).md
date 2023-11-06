@@ -1,5 +1,9 @@
 # 함수(Function)
 ---
+함수는 다음과 같을 때 선언하면 좋다
+- 공통으로 여러번 사용하는 코드가 있을 때
+- 수식이 복잡할 때
+- 조건이 복잡할 때
 ## 함수 선언
 파이썬의 함수는 재미있게 생겼다.
 ```python
@@ -26,4 +30,13 @@ my_function(number_list)
 # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(number_list)
 # [0, 1, 2, 3]
+```
+
+## 재귀함수(Recursive Function)
+```python
+# n^x 를 구하는 재귀함수
+def power(x, n):
+    if n == 0:
+        return 1
+    return x * power(x, n-1)
 ```

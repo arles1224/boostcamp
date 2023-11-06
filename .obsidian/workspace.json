@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Read Me.md",
+                "file": "Python/함수(Function).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Read Me.md",
+                "file": "Python/함수(Function).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Read Me.md"
+                "file": "Python/함수(Function).md"
               }
             }
           }
@@ -160,12 +159,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "588067dc3dc8cc3a",
+  "active": "90860c0e8cac7c09",
   "lastOpenFiles": [
+    "Read Me.md",
     "Python/함수(Function).md",
     "Python/리스트(List).md",
     "Python/변수(Variables).md",
-    "Read Me.md",
     "Python"
   ]
 }
