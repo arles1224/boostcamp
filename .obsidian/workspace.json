@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Python/리스트(List).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "588067dc3dc8cc3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Read Me.md",
                 "mode": "source",
                 "source": false
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Read Me.md",
+                "file": "Python/리스트(List).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Read Me.md",
+                "file": "Python/리스트(List).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Read Me.md"
+                "file": "Python/리스트(List).md"
               }
             }
           }
@@ -147,8 +159,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "990c5c875eab0e33",
+  "active": "c3b978f0a6ed0667",
   "lastOpenFiles": [
-    "Read Me.md"
+    "Python/함수(Function).md",
+    "Python/리스트(List).md",
+    "Python/변수(Variables).md",
+    "Read Me.md",
+    "Python"
   ]
 }
