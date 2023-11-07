@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/리스트(List).md",
+                "file": "Python/함수(Function).md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/리스트(List).md",
+                "file": "Python/함수(Function).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/리스트(List).md",
+                "file": "Python/함수(Function).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/리스트(List).md"
+                "file": "Python/함수(Function).md"
               }
             }
           }
@@ -161,11 +161,15 @@
   },
   "active": "90860c0e8cac7c09",
   "lastOpenFiles": [
-    "Python/함수(Function).md",
+    "Python/제너레이터(generator).md",
+    "Python/간단한 메소드(lambda, map).md",
     "Python/리스트(List).md",
+    "Python/함수(Function).md",
+    "Python/사전(dict).md",
+    "Python/집합(set).md",
+    "Read Me.md",
     "선형대수/벡터.md",
     "선형대수",
-    "Read Me.md",
     "Python/변수(Variables).md",
     "Python"
   ]
