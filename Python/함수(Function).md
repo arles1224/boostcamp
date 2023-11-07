@@ -60,7 +60,7 @@ def my_function(param1, param2='성실'):
 my_function('노력')
 ```
 
-### Variable-length arguments
+### Variable-lengtharguments
 개수가 정해지지 않은 변수를 함수의 parameter 로 사용할 때 \*로 표시한다. 가변인자는 가장 마지막 parameter 로 딱 한 개만 사용할 수 있다.
 ```python
 def calculate_mean(*args):
@@ -73,6 +73,8 @@ def calculate_mean(*args):
 
 calculate_mean(5,6,7,8,9,10)
 # 7.5
+calculate_mean(*(11,12,67,88)) # 여기서 *는 unpacking 의 의미를 가진다.
+# 44.5
 ```
 
 ### Keyword variable-length arguments
