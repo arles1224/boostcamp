@@ -90,3 +90,24 @@ my_function(date='2023.11.07', time='13:54', weather='sunny')
 # Key: time, Value: 13:54
 # Key: weather, Value: sunny
 ```
+
+## Decorator
+```python
+def daily_stamp(func):
+    def wrapper(*args):
+        print('*'*10 +'TODAY'+'*'*10)
+        func(*args)
+        print('*'*25)
+    return wrapper
+
+
+@daily_stamp
+def today(month, date, day):
+    print('-'.join([month,date,day]))
+
+
+today('11','07','화')
+# **********TODAY**********
+# 11-07-화
+# *************************
+```
