@@ -25,7 +25,6 @@ numbers = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 numbers_copy = copy.deepcopy(numbers)
 ```
 
----
 ## 리스트 메소드
 
 ```python
@@ -36,7 +35,6 @@ my_list.pop() # 맨 뒤 원소를 return 함과 동시에 my_list의 맨 뒤 원
 my_list.pop(3) # 3번 index 원소에 pop 이 작동한다.
 ```
 
----
 
 - 오늘 새로 배운 내용 : 2차원 이상의 배열은 모듈을 이용해야지만 메모리 주소가 다른 리스트로 복제된다.
 - 고민한 내용과 결과 : 
