@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/파일(Open).md",
+                "file": "Python/Python Data Handling.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Read Me.md",
+                "file": "Python/파일(Open).md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/파일(Open).md",
+                "file": "Python/Python Data Handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/파일(Open).md",
+                "file": "Python/Python Data Handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/파일(Open).md"
+                "file": "Python/Python Data Handling.md"
               }
             }
           }
@@ -159,19 +159,22 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "90860c0e8cac7c09",
+  "active": "c3b978f0a6ed0667",
   "lastOpenFiles": [
-    "Python/로그(Log).md",
+    "확률",
+    "무제 폴더",
     "Python/파일(Open).md",
+    "Python/간단한 메소드(lambda, map).md",
+    "Read Me.md",
+    "Python/Python Data Handling.md",
+    "Python/로그(Log).md",
     "Python/예외 처리(Excepetion Handling).md",
     "Python/함수(Function).md",
     "Python/제너레이터(generator).md",
     "Python/변수(Variables).md",
     "Python/모듈(Module).md",
-    "Read Me.md",
     "Python/클래스(Class).md",
     "선형대수/벡터.md",
-    "Python/간단한 메소드(lambda, map).md",
     "Python/리스트(List).md",
     "Python/사전(dict).md",
     "Python/집합(set).md",
