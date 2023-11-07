@@ -39,3 +39,5 @@ def power(x, n):
         return 1
     return x * power(x, n-1)
 ```
+
+## function passing arguments
