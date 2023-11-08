@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/넘파이(Numpy).md",
+                "file": "Python/판다스(Pandas).md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/넘파이(Numpy).md",
+                "file": "Python/판다스(Pandas).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/넘파이(Numpy).md",
+                "file": "Python/판다스(Pandas).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/넘파이(Numpy).md"
+                "file": "Python/판다스(Pandas).md"
               }
             }
           }
@@ -146,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,13 +160,14 @@
   },
   "active": "90860c0e8cac7c09",
   "lastOpenFiles": [
-    "Statistics 110/확률의 정의.md",
-    "Python/넘파이(Numpy).md",
     "Statistics 110/기반 개념.md",
+    "Python/판다스(Pandas).md",
+    "Python/파일(Open).md",
+    "Python/넘파이(Numpy).md",
+    "Statistics 110/확률의 정의.md",
     "Python/Python Data Handling.md",
     "Statistics 110",
     "무제 폴더",
-    "Python/파일(Open).md",
     "Python/간단한 메소드(lambda, map).md",
     "Read Me.md",
     "Python/로그(Log).md",
