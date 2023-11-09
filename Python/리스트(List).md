@@ -32,7 +32,7 @@ my_list = [1, 2, ,3, 4, 5]
 
 my_list.append(6) # list object 맨 뒤에 6이 추가된다.
 my_list.pop() # 맨 뒤 원소를 return 함과 동시에 my_list의 맨 뒤 원소가 삭제된다.
-my_list.pop(3) # 3번 index 원소에 pop 이 작동한다.
+my_list.pop(3)
 ```
 
 ## List Comprehension

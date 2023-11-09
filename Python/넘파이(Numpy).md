@@ -149,7 +149,16 @@ np.random.normal(0, 1, 8).reshape(2,-1)
 ```
 
 ## 연산 메소드
-#### dot
+### inner
+행과 행의 곱을 구하는 메소드. 수학에서의 내적은 행과 열의 곱이므로 numpy 의 내적과 수학의 내적은 다르다는 것에 유의하자.
+```python
+vector_1 = [2, 3, 7]
+vector_2 = [4, 2, 1]
+
+np.inner(vector_1, vector_2)
+# 21
+```
+### dot
 행렬의 곱연산
 ```python
 array_1 = np.arange(1,9).reshape(4,2)
@@ -158,8 +167,7 @@ array_2 = np.arange(3,11).reshape(2,4)
 array_1.dot(array_2)
 array_1 @ array_2 # 연산자로 표현
 ```
-
-transpose
+### transpose
 $A^T$로 표시하는 그것을 해주는 메소드.
 ```python
 array_1 = np.arange(1,9).reshape(4,2)
@@ -169,13 +177,31 @@ array_1.transpose()
 # array([[1, 3, 5, 7][2, 4, 6, 8]])
 array_1.T
 ```
+### sum, abs, sqrt
+덧셈, 절댓값, 제곱근
 
-### 검색 메소드
-#### where
-#### isnan(행렬)
-#### isinf(행렬)
+### linalg
+#### inv
+역행렬을 구해준다.
+```python
+my_array = [[[1, 2, 3],[4, 5, 6],[7, 8, 9]]]
 
-#### argmax, argmin
+np.linalg.inv(my_array)
+"""
+array([[[ 3.15251974e+15, -6.30503948e+15,  3.15251974e+15],
+        [-6.30503948e+15,  1.26100790e+16, -6.30503948e+15],
+        [ 3.15251974e+15, -6.30503948e+15,  3.15251974e+15]]])
+"""
+```
+
+#### pinv
+무어-펜로즈 유사역행렬을 구해준다.
+## 검색 메소드
+### where
+### snan(행렬)
+### isinf(행렬)
+
+### argmax, argmin
 최대값 혹은 최솟값의 index 를 return 한다.
 ```python
 array_1 = np.arange(1,9).reshape(4,2)

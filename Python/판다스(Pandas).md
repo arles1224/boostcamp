@@ -50,12 +50,29 @@ series.map(datas) # dict 의 key 에 맞는 index 자리에 값을 넣어준다.
 7     peach
 """
 ```
+
+### Series 내장 메소드
+#### value_counts
+```python
+my_list = [['20231106','Python 기초', '완료'],['20231107','선형대수 기초', '진행중'], ['20231108', '확률론 기초', '완료']]
+
+df =DataFrame(my_list, columns=['날짜', '과목', '상태'])
+
+df['과목'].value_counts(normalize=True)
+"""
+과목
+Python 기초    0.666667
+선형대수 기초      0.166667
+확률론 기초       0.166667
+"""
+```
 ## DataFrame
 
 ### DataFrame Indexing
 ```python
 from pandas import Series, DataFrame
 
+my_list = [['20231106','Python 기초', '완료'],['20231107','선형대수 기초', '진행중'], ['20231108', '확률론 기초', '완료']]
 
 df =DataFrame(my_list, columns=['날짜', '과목', '상태'])
 # DataFrame 객체 생성
@@ -73,6 +90,12 @@ df[['날짜', '상태']]
 
 df['상태'] = df['상태'].replace({'완료': True, '진행중': False})
 ```
+
+>💡깨알 팁
+>import dateutil
+>df['날짜'] = df['날짜'].apply(dateutil.parser.parse, dayfirst=False)
+>위의 코드를 작성해주면 날짜가 2023-11-06 형태로 바뀐다.
+
 ### DataFrame column 추가 방법 with Series
 ```python
 values = Series(data = ['mac', 'mac'], index=[0, 2])
@@ -129,4 +152,105 @@ df1.add(df2,fill_value=0)
 1  3.0  4.0  5.0  3.0  4.0  5.0
 2  NaN  NaN  NaN  6.0  7.0  8.0
 """
+```
+
+## Groupby
+SQL 의 그 group by 가 맞다. 이걸 Python 에서 사용할 수 있다는 게 신기하다.
+```python
+import pandas as pd
+from pandas import DataFrame
+
+my_list = [['20231106','Python 기초', 3, '완료'],['20231106','Python 기초', 4, '완료'],['20231107','선형대수 기초', 2, '진행중'], ['20231107','Python 기초', 2, '완료'], ['20231108', '확률론 기초', 2, '완료'], ['20231108','Python 기초', 2, '완료']]
+
+df = DataFrame(my_list, columns=['날짜', '과목', '시간', '상태'])
+
+# df.groupby("<기준 컬럼>")["<적용 컬럼>"].연산()
+times = df.groupby(["과목","날짜"])["시간"].sum()
+type(times)
+# <class 'pandas.core.series.Series'>
+# groupby 결과는 Series 데이터이다.
+times
+"""
+과목         날짜      
+Python 기초  20231106    7
+           20231107    2
+           20231108    2
+선형대수 기초    20231107    2
+확률론 기초     20231108    2
+Name: 시간, dtype: int64
+"""
+
+times.index
+times.unstack() # 행렬화
+times.reset_index()
+"""
+          과목        날짜  시간
+0  Python 기초  20231106   7
+1  Python 기초  20231107   2
+2  Python 기초  20231108   2
+3    선형대수 기초  20231107   2
+4     확률론 기초  20231108   2
+"""
+```
+
+### groupby unpacking
+```python
+import pandas as pd
+from pandas import DataFrame
+
+my_list = [['20231106','Python 기초', 3, '완료'],['20231106','Python 기초', 4, '완료'],['20231107','선형대수 기초', 2, '진행중'], ['20231107','Python 기초', 2, '완료'], ['20231108', '확률론 기초', 2, '완료'], ['20231108','Python 기초', 2, '완료']]
+
+df = DataFrame(my_list, columns=['날짜', '과목', '시간', '상태'])
+
+grouped = df.groupby("과목")["날짜"]
+
+for key, value in grouped:
+    print(key)
+    print(value)
+"""
+Python 기초
+0    20231106
+1    20231106
+3    20231107
+5    20231108
+Name: 날짜, dtype: object
+
+선형대수 기초
+2    20231107
+Name: 날짜, dtype: object
+
+확률론 기초
+4    20231108
+Name: 날짜, dtype: object
+"""
+```
+
+### groupby 데이터 다루기
+#### agg
+```python
+import numpy as np
+
+grouped.agg(sum)
+grouped.agg([max, min])
+grouped.agg([np.mean, np.sum, np.std])
+
+df.groupby(['날짜','상태']).agg({'과목': 'count', '시간': sum})
+"""
+                과목  시간
+날짜         상태
+2023-11-06 완료    2   7
+2023-11-07 완료    1   2
+           진행중   1   2
+2023-11-08 완료    2   4
+"""
+```
+agg 는 꼭 SQL 쓰는 것 같아서 재밌다.
+#### transform
+이걸 왜 쓰는 거지?
+
+## Categorical
+```python
+subject_categories = pd.Categorical(df['과목'])
+subject_categories.categories
+# Index(['Python 기초', '선형대수 기초', '확률론 기초'], dtype='object')
 ```
