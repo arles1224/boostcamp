@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/넘파이(Numpy).md",
+                "file": "Statistics 110/확률의 정의.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/넘파이(Numpy).md",
+                "file": "Statistics 110/확률의 정의.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/넘파이(Numpy).md",
+                "file": "Statistics 110/확률의 정의.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/넘파이(Numpy).md"
+                "file": "Statistics 110/확률의 정의.md"
               }
             }
           }
@@ -160,16 +160,17 @@
   },
   "active": "90860c0e8cac7c09",
   "lastOpenFiles": [
+    "Statistics 110/Birthday Problem.md",
+    "Statistics 110/확률의 정의.md",
+    "Python/넘파이(Numpy).md",
     "Python/판다스(Pandas).md",
     "Python/함수(Function).md",
-    "Python/넘파이(Numpy).md",
     "선형대수/벡터.md",
     "Python/예외 처리(Excepetion Handling).md",
     "Python/클래스(Class).md",
     "Python/리스트(List).md",
     "Statistics 110/기반 개념.md",
     "Python/파일(Open).md",
-    "Statistics 110/확률의 정의.md",
     "Python/Python Data Handling.md",
     "Statistics 110",
     "무제 폴더",
