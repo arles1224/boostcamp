@@ -60,3 +60,11 @@ $C$: heart surgery <- Confounder(교란요인)
 $P(A|B,C) < P(A|B^c,C)$
 $P(A|B,C^c) < P(A|B^c,C^c)$
 $P(A|B) > P(A|B^c)$
+
+## Thinking Condotionally
+### Gambler's Ruin
+- Two gamblers, $A$ and $B$
+- Sequence of rounds bet 1$
+- $p=P(A$ wins a certain round$), \, q=1-p$
+- Find probability that $A$ wins entire game(so $B$ is "ruined").
+- Assuming $A$ starts with $\$i$, $B$ starts with $\$(N-i)$ 
