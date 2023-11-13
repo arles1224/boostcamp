@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "588067dc3dc8cc3a",
+            "id": "53d6c37c6364acd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics 110/확률의 정의.md",
+                "file": "Python/넘파이(Numpy).md",
                 "mode": "source",
                 "source": false
               }
@@ -146,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,24 +160,25 @@
   },
   "active": "90860c0e8cac7c09",
   "lastOpenFiles": [
-    "Statistics 110/기반 개념.md",
-    "Statistics 110/조건부 확률(Conditional Probability).md",
     "Statistics 110/독립 vs 조건부 독립.md",
-    "Statistics 110/Birthday Problem.md",
+    "Statistics 110/조건부 확률(Conditional Probability).md",
+    "Statistics 110/기반 개념.md",
     "Statistics 110/확률의 정의.md",
+    "PyTorch/Tensor.md",
+    "Python/넘파이(Numpy).md",
+    "Python/간단한 메소드(lambda, map).md",
+    "PyTorch",
+    "Statistics 110/Birthday Problem.md",
     "Statistics 110/Newton-Pepys Problem.md",
     "선형대수/벡터.md",
     "Python/판다스(Pandas).md",
     "Python/파일(Open).md",
-    "Python/넘파이(Numpy).md",
     "Python/함수(Function).md",
     "Python/예외 처리(Excepetion Handling).md",
     "Python/클래스(Class).md",
     "Python/리스트(List).md",
     "Python/Python Data Handling.md",
     "Statistics 110",
-    "무제 폴더",
-    "Python/간단한 메소드(lambda, map).md",
     "Read Me.md",
     "Python/로그(Log).md",
     "Python/제너레이터(generator).md",
