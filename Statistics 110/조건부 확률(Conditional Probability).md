@@ -65,6 +65,6 @@ $P(A|B) > P(A|B^c)$
 ### Gambler's Ruin
 - Two gamblers, $A$ and $B$
 - Sequence of rounds bet 1$
-- $p=P(A$ wins a certain round$), \, q=1-p$
+- $p=P(A \, wins\, a\, certain\, round), \, q=1-p$
 - Find probability that $A$ wins entire game(so $B$ is "ruined").
 - Assuming $A$ starts with $ $i$, $B$ starts with $ $(N-i)$ 
