@@ -67,4 +67,4 @@ $P(A|B) > P(A|B^c)$
 - Sequence of rounds bet 1$
 - $p=P(A$ wins a certain round$), \, q=1-p$
 - Find probability that $A$ wins entire game(so $B$ is "ruined").
-- Assuming $A$ starts with $\$i$, $B$ starts with $\$(N-i)$ 
+- Assuming $A$ starts with $ $i$, $B$ starts with $ $(N-i)$ 
