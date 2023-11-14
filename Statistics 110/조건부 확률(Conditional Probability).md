@@ -71,4 +71,17 @@ $P(A|B) > P(A|B^c)$
 - Assuming $A$ starts with $ $i$, $B$ starts with $ $(N-i)$.
 - $p_i = P(A\ wins\ game|A\ starts\ at\ i)$.
 #### Strategy: first step analysis
-- 
+- $p_i= p \cdot p_{i+1} + q \cdot p_{i-1}, \ (1 \leqq i \leqq {N-1})$
+	- [Difference equation(계차방정식)](https://www.collimator.ai/reference-guides/what-is-a-difference-equation)
+	- Guess $p_i = x^i$. Then, $x^i = p \cdot x^{i+1} + q \cdot x^{i-1}$. 
+	- Asumme $x \neq 0$.  Then, $p \cdot x^2 + q = x \rightarrow p \cdot x^2 -x + q = 0$.
+	- $x = \frac{1 \pm \sqrt{1-4pq}}{2p}= \frac{1 \pm \sqrt{(2p-1)^2}}{2p} \in \{1, \frac{q}{p}\}$
+	- $p_i = A \cdot 1^i + B \cdot {(\frac{q}{p})}^i \ (p \neq q)$
+		- If all the roots of polynomial is distinct, then the general solution is linear combination of roots.
+		- $p_0 = 0 \Rightarrow B = -A$
+		- $p_N = 1 = A - A \cdot (\frac{q}{p})^N \Rightarrow A = \frac {1}{(1- \frac{q}{p})^N}$
+		- $\therefore p_i = \frac{1-(\frac{q}{p})^i}{1-(\frac{q}{p})^N}$, if $p \neq q$
+		- $\frac{i}{N}$, if $p = q$
+- Boundary Conditions
+	- $p_0 = 0$: $A$ starts out bankrupt and nothing is happend
+	- $p_N=1$: $B$ starts out bankrupt
