@@ -69,6 +69,6 @@ $P(A|B) > P(A|B^c)$
 - $p=P(A \ wins\ a\ certain\ round) \ q=1-p$
 - Find probability that $A$ wins entire game(so $B$ is "ruined").
 - Assuming $A$ starts with $ $i$, $B$ starts with $ $(N-i)$.
-- $p_i = P(A\ wins\ game|A\ starts\ at\ {\$}i)$.
+- $p_i = P(A\ wins\ game|A\ starts\ at\$ i)$.
 #### Strategy: first step analysis
 - 
