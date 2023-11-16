@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics 110/확률 변수(Random Variables).md",
+                "file": "Statistics 110/평균(Means, Expected Values).md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics 110/확률 변수(Random Variables).md",
+                "file": "Statistics 110/평균(Means, Expected Values).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics 110/확률 변수(Random Variables).md",
+                "file": "Statistics 110/평균(Means, Expected Values).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics 110/확률 변수(Random Variables).md"
+                "file": "Statistics 110/평균(Means, Expected Values).md"
               }
             }
           }
@@ -160,8 +160,9 @@
   },
   "active": "90860c0e8cac7c09",
   "lastOpenFiles": [
-    "Statistics 110/images/9-1.png",
     "Statistics 110/확률 변수(Random Variables).md",
+    "Statistics 110/평균(Means, Expected Values).md",
+    "Statistics 110/images/9-1.png",
     "Statistics 110/images",
     "Statistics 110/무제 파일.canvas",
     "그래프 이미지",

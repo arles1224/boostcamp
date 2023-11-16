@@ -52,3 +52,20 @@ $X + Y$ ~ $(m+n, \ p)$
   ![그래프](https://github.com/arles1224/boostcamp/blob/main/Statistics%20110/images/9-1.png)
   > 출처: [네이버 부스트코스](https://www.boostcourse.org/ai152/lecture/30901?isDesc=false)
 
+- 누적분포함수를 사용해 원하는 확률 구하기
+	- 예시
+	
+	  $P(1 < X \leqq 3) = F(3) - F(1)$
+- 누적분포함수의 특징
+	1. 감소하지 않고 증가만 한다.
+	2. 우측에서 접근하는 극한 일때 항상 연속적인 우연속 함수이다.(좌연속은 해당하지 않는다.)
+	3. 음의 무한대로 가면 0에, 양의 무한대로 가면 1에 수렴한다.
+
+## Independence of Random Variables
+X, Y are independent random variables if
+$P(X \leqq x, \ Y \leqq y) = P(X \leqq x)\cdot P(Y \leqq y)$ for all x, y.
+
+- Descrete case:
+  
+  $P(X=x, Y=y) = P(X=x) \cdot P(Y=y)$
+
