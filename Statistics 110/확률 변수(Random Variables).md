@@ -38,7 +38,7 @@ $X + Y$ ~ $(m+n, \ p)$
    
    $= \sum_{j=0}^{k}P(Y=k-j|X=j)\cdot _nC_jp^jq^{n-j}$
    
-   $= \sum_{j=0}^{k} \ _mC_{k-j}p^{k-j}q^{m-k+j} \cdot _nC_jp^jq^{n-j}$
+   $=\sum_{j=0}^{k} \ _mC_{k-j}p^{k-j}q^{m-k+j} \cdot _nC_jp^jq^{n-j}$
    
    $=p^kq^{m+n-k} \cdot _{m+n}C_k$
 
