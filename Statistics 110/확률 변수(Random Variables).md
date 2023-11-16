@@ -32,9 +32,16 @@ $X$ and $Y$ is independent.
 
 $X + Y$ ~ $(m+n, \ p)$
 1. $X = X_1 + \cdots + X_n, \ Y = Y_1 + \cdots + Y_m \Rightarrow X + Y = \sum_{j=1}^{n}X_j + \sum_{i=1}^{m}Y_i$
+   
    Sum of $n + m$ i.i.d.(idepentent and identical distribution) Bern(p) $\Rightarrow Bin(n+m, p)$
 2. $P(X+Y=k)= \sum_{j=0}^{k} P(X+Y=k|X=j)\cdot P(X=j)$
-   $= \sum_{j=0}^{k}P(Y=k-j|X=j)\cdot _nC_jp^jq^{n-j}$
-   $= \sum_{j=0}^{k} \ _mC_{k-j}p^{k-j}q^{m-k+j} \cdot _nC_jp^jq^{n-j}$
-   $=p^kq^{m+n-k} \cdot _{m+n}C_k$
    
+   $= \sum_{j=0}^{k}P(Y=k-j|X=j)\cdot _nC_jp^jq^{n-j}$
+   
+   $= \sum_{j=0}^{k} \ _mC_{k-j}p^{k-j}q^{m-k+j} \cdot _nC_jp^jq^{n-j}$
+   
+   $=p^kq^{m+n-k} \cdot _{m+n}C_k$
+
+## CDF(누적분포함수)
+- CDF는 이산확률변수(discrete random variable)와 연속확률변수(continuous random variable) 모두에 성립한다.
+- 

@@ -146,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,12 +158,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "990c5c875eab0e33",
+  "active": "90860c0e8cac7c09",
   "lastOpenFiles": [
-    "PyTorch/Tensor.md",
-    "Python/간단한 메소드(lambda, map).md",
+    "Python/넘파이(Numpy).md",
+    "Python/판다스(Pandas).md",
+    "Python/파일(Open).md",
     "Statistics 110/확률 변수(Random Variables).md",
     "Statistics 110/조건부 확률(Conditional Probability).md",
+    "PyTorch/Tensor.md",
+    "Python/간단한 메소드(lambda, map).md",
     "Python/예외 처리(Excepetion Handling).md",
     "Python/사전(dict).md",
     "PyTorch/AutoGrad & Optimizer.md",
@@ -172,13 +174,10 @@
     "Statistics 110/독립 vs 조건부 독립.md",
     "Statistics 110/기반 개념.md",
     "Statistics 110/확률의 정의.md",
-    "Python/넘파이(Numpy).md",
     "PyTorch",
     "Statistics 110/Birthday Problem.md",
     "Statistics 110/Newton-Pepys Problem.md",
     "선형대수/벡터.md",
-    "Python/판다스(Pandas).md",
-    "Python/파일(Open).md",
     "Python/함수(Function).md",
     "Python/클래스(Class).md",
     "Python/리스트(List).md",
