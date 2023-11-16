@@ -49,6 +49,6 @@ $X + Y$ ~ $(m+n, \ p)$
 - 이산확률변수의 누적분포함수 그래프
 
 
-  ![그래프](./images/9-1.png)
+  ![그래프](https://github.com/arles1224/boostcamp/blob/main/Statistics%20110/images/9-1.png)
   > 출처: [네이버 부스트코스](https://www.boostcourse.org/ai152/lecture/30901?isDesc=false)
 
