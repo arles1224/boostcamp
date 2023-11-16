@@ -160,10 +160,14 @@
   },
   "active": "90860c0e8cac7c09",
   "lastOpenFiles": [
+    "Statistics 110/images/9-1.png",
+    "Statistics 110/확률 변수(Random Variables).md",
+    "Statistics 110/images",
+    "Statistics 110/무제 파일.canvas",
+    "그래프 이미지",
     "Python/넘파이(Numpy).md",
     "Python/판다스(Pandas).md",
     "Python/파일(Open).md",
-    "Statistics 110/확률 변수(Random Variables).md",
     "Statistics 110/조건부 확률(Conditional Probability).md",
     "PyTorch/Tensor.md",
     "Python/간단한 메소드(lambda, map).md",
@@ -188,7 +192,6 @@
     "Python/제너레이터(generator).md",
     "Python/변수(Variables).md",
     "Python/모듈(Module).md",
-    "Python/집합(set).md",
     "선형대수",
     "Python"
   ]

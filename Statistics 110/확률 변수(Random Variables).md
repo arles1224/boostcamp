@@ -38,10 +38,15 @@ $X + Y$ ~ $(m+n, \ p)$
    
    $= \sum_{j=0}^{k}P(Y=k-j|X=j)\cdot _nC_jp^jq^{n-j}$
    
-   $= \sum_{j=0}^{k} \ _mC_{k-j}p^{k-j}q^{m-k+j} \cdot _nC_jp^jq^{n-j}$
+   $=\sum_{j=0}^{k} \ _mC_{k-j}p^{k-j}q^{m-k+j} \cdot _nC_jp^jq^{n-j}$
    
    $=p^kq^{m+n-k} \cdot _{m+n}C_k$
 
 ## CDF(누적분포함수)
+### CDF
 - CDF는 이산확률변수(discrete random variable)와 연속확률변수(continuous random variable) 모두에 성립한다.
-- 
+- CDF: $F(x) = P(X \leqq x),\ x \in \mathbb{R}$
+- 이산확률변수의 누적분포함수 그래프
+  ![그래프](./images/9-1.png)
+  > 출처: [네이버 부스트코스](https://www.boostcourse.org/ai152/lecture/30901?isDesc=false)
+
