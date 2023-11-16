@@ -47,6 +47,8 @@ $X + Y$ ~ $(m+n, \ p)$
 - CDF는 이산확률변수(discrete random variable)와 연속확률변수(continuous random variable) 모두에 성립한다.
 - CDF: $F(x) = P(X \leqq x),\ x \in \mathbb{R}$
 - 이산확률변수의 누적분포함수 그래프
+
+
   ![그래프](./images/9-1.png)
   > 출처: [네이버 부스트코스](https://www.boostcourse.org/ai152/lecture/30901?isDesc=false)
 
