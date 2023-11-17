@@ -16,10 +16,10 @@ $$ \frac{5}{8} \cdot 1 + \frac{2}{8} \cdot 3 + \frac{1}{8} \cdot 5 = 2$$
 
 ## Average of a discrete random variable $X$
 $$ E(X)= \sum_{x}^{} x P(X=x)$$
-### In case of $X ~ Bern(p)$
+### In case of $X \sim Bern(p)$
 $$ E(X) = 1 \cdot P(X=1) + 0 \cdot P(X=0) = p$$
 : fundemental bridge
-### In case of $X ~ Bin(n,p)
+### In case of $X \sim Bin(n,p)$
 $$ E(X) = np$$
 
 $E(X) = \sum_{k=0}^{n} k \cdot {_nC_k} p^k q^{n-k} = \sum_{k=0}^{n} n \cdot _{n-1}C_{k-1} p^k q^{n-k} = np \sum_{k=1}^{n}\  _{n-1}C_{k-1}p^{k-1} q^{n-k}$
@@ -28,6 +28,7 @@ $=np\sum_{j=0}^{n-1} \ _{n-1}C_{j} p^j q^{n-j-1} = np$
 
 #### **LINEARITY OF EXPECTATION**
 $$ E(X+Y) = E(X) + E(Y) $$
-even if $X, Y$ are dependent.
 $$ E(cX) = cE(X)$$
+
+
 
