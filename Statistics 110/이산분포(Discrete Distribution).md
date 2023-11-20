@@ -90,7 +90,7 @@ $X \sim Bin(n,p)$에서 $n \rightarrow \infty$ 로, $p \rightarrow 0$로 즉, $n
 
 만약 $Bin(n,p)$가 $Pois(\lambda)$로 수렴한다면, $\lambda = np$일 것이다. $n$과 $p$의 곱이 상수라는 것은 $n \rightarrow \infty$의 속도와 $p \rightarrow 0$의 속도가 같다는 의미이다.
 
-이항분포의 확률질량함수(PMF)인 $P(X=k) = \begin{pmatrix}n \\ k \end{pmatrix} p^n (1-p)^{n-k}$는 $k$가 상수라고 했을 때,  $n \rightarrow \infty , \ p \rightarrow 0$의 상황에서 어떻게 될까?
+이항분포의 확률질량함수(PMF)인 $P(X=k)=\begin{pmatrix}n \\ k \end{pmatrix} p^n (1-p)^{n-k}$는 $k$가 상수라고 했을 때,  $n \rightarrow \infty , \ p \rightarrow 0$의 상황에서 어떻게 될까?
 
 $p = \frac{\lambda}{n}$을 이용해서 식을 $n$에 대한 함수로 바꿔보자.
 
@@ -107,15 +107,17 @@ $$
 따라서 $n \rightarrow \infty$, $p \rightarrow 0$일 때 이항 분포는 포아송 분포로 수렴한다.
 
 ### 생일 예시
+
 $n$명의 사람이 있을 때 3명의 생일이 같을 확률의 근사값을 구해보자.
 
 $n$명의 사람 집단에서 세 사람을 뽑는 경우의 수는 총 $\begin{pmatrix}n \\ 3 \end{pmatrix}$가지이다.
 $X$를 세 사람의 생일이 같을 경우의 수라고 했을 때,
-이 세 명 집단 $I_{ijk}$($i,\ j, \ k$는 $i<j<k$인 사람 세 명을 뜻한다.)의 생일이 모두 같을 기댓값은 다음과 같다.
+이 세 명 집단 $I_{ijk}$($i < j < k$인 사람 세 명을 뜻한다.)의 생일이 모두 같을 기댓값은 다음과 같다.
 
 $$
 E(X) = \begin{pmatrix}n \\ 3 \end{pmatrix} (\frac{1}{365})^2
 $$
+
 위의 식을 $Pois(\lambda)$에 근사시키면 $\lambda = \begin{pmatrix}n \\ 3 \end{pmatrix} (\frac{1}{365})^2$이다.
 그리고
 
@@ -123,6 +125,7 @@ $$
 P(X \geqq 1) = 1 - P(X=0) \approx 1 - \frac{e^{-\lambda}{\lambda}^0}{0!} = 1 - e^{-\lambda}
 $$
 
+이다.
 
 
 

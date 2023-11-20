@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics 110/연속 분포(Continuous Distribution).md",
+                "file": "Statistics 110/이산분포(Discrete Distribution).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics 110/연속 분포(Continuous Distribution).md",
+                "file": "Statistics 110/이산분포(Discrete Distribution).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics 110/연속 분포(Continuous Distribution).md",
+                "file": "Statistics 110/이산분포(Discrete Distribution).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics 110/연속 분포(Continuous Distribution).md"
+                "file": "Statistics 110/이산분포(Discrete Distribution).md"
               }
             }
           }
@@ -149,8 +149,8 @@
   "active": "429f772add860022",
   "lastOpenFiles": [
     "Statistics 110/강의 인덱스.md",
-    "Statistics 110/기반 개념.md",
     "Statistics 110/연속 분포(Continuous Distribution).md",
+    "Statistics 110/기반 개념.md",
     "Statistics 110/기하분포(Geometric Dstribution).md",
     "Statistics 110/이산분포(Discrete Distribution).md",
     "Statistics 110/확률 변수(Random Variables).md",
