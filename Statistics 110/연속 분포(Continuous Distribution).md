@@ -72,11 +72,10 @@ f(x) = \begin{cases}
 c, \ if \ a \leqq x \leqq b\\
 0, \ otherwise
 \end{cases}
-
 \Rightarrow 1 = \int_{a}^{b}{c\ dx}
-
 \Rightarrow c = \frac{1}{b-a}
 $$
+
 
 균등 분포는 확률이 어느 한 쪽으로 치우치지 않은 균등한 분포이다. 따라서 범위 안에서는 확률밀도가 같아야 한다.
 
