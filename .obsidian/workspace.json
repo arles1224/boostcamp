@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "925732d8aee86a50",
+        "id": "042dc7c25b7c6272",
         "type": "tabs",
         "children": [
           {
-            "id": "429f772add860022",
+            "id": "8cfa475286f26b30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics 110/확률 변수(Random Variables).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a4b9588933d886d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics 110/강의 인덱스.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1e05f7036a102cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Binom",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics 110/이산분포(Discrete Distribution).md",
+                "file": "Statistics 110/확률 변수(Random Variables).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics 110/이산분포(Discrete Distribution).md",
+                "file": "Statistics 110/확률 변수(Random Variables).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics 110/이산분포(Discrete Distribution).md"
+                "file": "Statistics 110/확률 변수(Random Variables).md"
               }
             }
           }
@@ -146,16 +170,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "429f772add860022",
+  "active": "8cfa475286f26b30",
   "lastOpenFiles": [
     "Statistics 110/강의 인덱스.md",
-    "Statistics 110/연속 분포(Continuous Distribution).md",
-    "Statistics 110/기반 개념.md",
-    "Statistics 110/기하분포(Geometric Dstribution).md",
-    "Statistics 110/이산분포(Discrete Distribution).md",
     "Statistics 110/확률 변수(Random Variables).md",
-    "Statistics 110/평균(Means, Expected Values).md",
+    "Statistics 110/이산분포(Discrete Distribution).md",
+    "Statistics 110/연속 분포(Continuous Distribution).md",
     "Statistics 110/조건부 확률(Conditional Probability).md",
+    "Statistics 110/기하분포(Geometric Dstribution).md",
+    "Statistics 110/정규분포(Normal Distribution).md",
+    "Statistics 110/기반 개념.md",
+    "확률변수(Random Variables).md",
+    "Read Me.md",
+    "Statistics 110/평균(Means, Expected Values).md",
     "선형대수/벡터.md",
     "Python/판다스(Pandas).md",
     "Python/넘파이(Numpy).md",
@@ -175,11 +202,8 @@
     "Python/간단한 메소드(lambda, map).md",
     "Python/예외 처리(Excepetion Handling).md",
     "Python/사전(dict).md",
-    "PyTorch/AutoGrad & Optimizer.md",
     "무제 파일.canvas",
     "PyTorch",
-    "Statistics 110/Newton-Pepys Problem.md",
-    "Python/함수(Function).md",
     "Statistics 110",
     "선형대수",
     "Python"

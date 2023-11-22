@@ -37,8 +37,6 @@ $$
 
 이므로 포아송 분포는 타당하다.
 
-<font color='red'>이해 안 되는 부분: 테일러 급수의 유도</font>
-
 ### 기댓값 $E(X)$
 
 기댓값은 값($k$)과 확률($\frac{e^{- \lambda} \lambda^k}{k!}$)의 곱들의 합이다.
@@ -78,8 +76,6 @@ $$
 \lambda = \sum_{j=1}^{n}p_j
 $$
 
-
-<font color='red'>왜 포아송 분포의 기댓값인 람다가 p_j들의 합이지? 기댓값은 값과 확률의 곱들의 합인데, p_j 들의 합은 확률들만 더한 건데.</font>
 
 ### 이항 분포의 포아송 분포로의 수렴
 
@@ -134,7 +130,29 @@ $$
 
 이다.
 
+### 포아송 분포의 분산
 
+$X \sim Pois(\lambda)$의 경우에서
 
+$$
+E(X^2) = \displaystyle\sum_{k=0}^{\infty}k^2\frac{(e^{-\lambda}\lambda^k)}{k!} = \lambda^2 + \lambda, \ E(X) = \lambda
+$$
 
+$\displaystyle\sum_{k=0}^{\infty}\frac{\lambda^k}{k!} = e^{\lambda}$
+
+$\lambda\displaystyle\sum_{k=1}^{\infty}\frac{k\lambda^{k-1}}{k!} = \lambda e^{\lambda}$
+
+$\displaystyle\sum_{k=1}^{\infty} \frac{k\lambda^k}{k!} = \lambda e^{\lambda}$
+
+$\displaystyle\sum_{k=1}^{\infty} \frac{k^2 \lambda^{k-1}}{k!} = \lambda e^{\lambda} + e^{\lambda} = e^{\lambda}(\lambda + 1)$
+
+$E(X^2) = \displaystyle\sum_{k=0}^{\infty}k^2\frac{(e^{-\lambda}\lambda^k)}{k!} = e^{-\lambda}e^{\lambda}\lambda (\lambda+1) = \lambda^2 + \lambda$
+
+따라서,
+
+$$
+Var(X) = \lambda
+$$
+
+포아송 분포는 기댓값과 분산이 $\lambda$로 동일하다.
 

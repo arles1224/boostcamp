@@ -42,6 +42,10 @@ $X + Y$ ~ $(m+n, \ p)$
    
    $=p^kq^{m+n-k} \cdot _{m+n}C_k$
 
+### 이항분포의 분산
+
+
+
 ## CDF(누적분포함수)
 ### CDF
 - CDF는 이산확률변수(discrete random variable)와 연속확률변수(continuous random variable) 모두에 성립한다.
@@ -69,3 +73,25 @@ $P(X \leqq x, \ Y \leqq y) = P(X \leqq x)\cdot P(Y \leqq y)$ for all x, y.
   
   $P(X=x, Y=y) = P(X=x) \cdot P(Y=y)$
 
+## 확률변수의 독립
+
+확률변수 $X_1, \cdots, X_n$가 독립이면 **모든** $x_1, \cdots x_n$에 대해,
+
+$$
+P(X_1 \leqq x_1, \cdots , X_n \leqq x_n) = P(X_1 \leqq x_1)\cdots P(X_n \leqq x_n)
+$$
+
+이다.
+
+### 이산분포의 경우
+
+$$
+P(X_1=x_1, \cdots , X_n=x_n) = P(X_1=x_1) \cdots P(X_n=x_n)
+$$
+### Example where pair wise independence doesn't imply independence
+
+$X_1, X_2 \sim Bern(\frac{1}{2})$. $X_1$과 $X_2$를 동전 던지기라고 하자. 
+
+동전을 두 번 던져서 같은 면이 나오면 한 사람이 나오고, 아니면 다른 사람이 이기는 게임을 한다고 하면, 두 개가 같은지 다른지 확인하는 확률변수 $X_3$가 필요하다. $X_1 = X_2$ 이면 $X_3 = 1$이고, 아니면 $X_3 = 0$이다.
+
+$X_1$과 $X_2$는 pair wise independence 이지만 독립은 아니다. $X_1$과 $X_2$를 알면 $X_3$을 알 수 있기 때문이다. 같은 방식으로 $X_2$와 $X_3$도 쌍으로는 독립이지만 완전한 독립은 아니다.
