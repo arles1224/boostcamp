@@ -42,8 +42,13 @@ $X + Y$ ~ $(m+n, \ p)$
    
    $=p^kq^{m+n-k} \cdot _{m+n}C_k$
 
-### 이항분포의 분산
+### $n-X$의 분포 찾기
 
+$X \sim Bin(n,p)$ 일 때, $n-X$의 분포 찾기.
+
+$P(n-X=k)=P(X=n-k)=_nC_{n-k}p^{n-k}q^k = _nC_kq^kp^{n-k}$
+
+따라서, $n-X \sim Bin(n,q)$이다.
 
 
 ## CDF(누적분포함수)

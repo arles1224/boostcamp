@@ -11,7 +11,11 @@ $P(X=n) = _{n+r-1}C_{r-1} p^r(1-p)^n$
 
 #### $E(X)$
 $X_j$ 는 $j-1$ 번째 성공과 $j$ 번째 성공 사이의 실패 횟수이다. 따라서 $X_j \sim Geom(p)$이고 독립적이다.
-$$E(X) = E(X_1+X_2+ \cdots +X_r)=E(X_1)+ \cdots + E(X_r) = \frac{rq}{p}$$
+
+$$
+E(X) = E(X_1+X_2+ \cdots +X_r)=E(X_1)+ \cdots + E(X_r) = \frac{rq}{p}
+$$
+
 ## 포아송 분포
 
 포아송 분포의 표기는 $X \sim Pois(\lambda)$ 이다.
@@ -130,6 +134,17 @@ $$
 
 이다.
 
+### 받은 이메일 개수 문제
+
+일정 시간 $t$ 동안 받은 이메일의 개수가 $Pois(\lambda t)$로 분포한다. 첫 이메일이 오는 시간을 $T$라고 할 때, $T$의 PDF 를 구해보자. $N_t$는 0에서 $t$까지의 시간 동은 온 메일의 수이다.
+
+> 이 문제는 이산(이메일의 수)과 연속(시간)을 연결한다는 점에서 멋진 문제이다.
+
+$P(T>t) = P(N_t=0)=e^{-\lambda t}\frac{(\lambda^t)^0}{0!}=e^{-\lambda t}$
+
+따라서 $T$ 의 CDF 는 $1-e^{-\lambda t}$이고 PDF 는 CDF 를 미분하면 된다.
+
+$T$의 PDF 는 $\lambda e^{-\lambda t}, \ t > 0$가 된다.
 ### 포아송 분포의 분산
 
 $X \sim Pois(\lambda)$의 경우에서
@@ -155,4 +170,3 @@ Var(X) = \lambda
 $$
 
 포아송 분포는 기댓값과 분산이 $\lambda$로 동일하다.
-

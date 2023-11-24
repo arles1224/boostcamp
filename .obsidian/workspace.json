@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8cfa475286f26b30",
+            "id": "0047a872449aeab3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics 110/확률 변수(Random Variables).md",
+                "file": "Statistics 110/독립 vs 조건부 독립.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3a4b9588933d886d",
+            "id": "cfa5d47192552f3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "a1e05f7036a102cf",
+            "id": "a6df7858370d83a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics 110/이산분포(Discrete Distribution).md",
+                "file": "Statistics 110/연속 분포(Continuous Distribution).md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics 110/확률 변수(Random Variables).md",
+                "file": "Statistics 110/독립 vs 조건부 독립.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics 110/확률 변수(Random Variables).md",
+                "file": "Statistics 110/독립 vs 조건부 독립.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics 110/확률 변수(Random Variables).md"
+                "file": "Statistics 110/독립 vs 조건부 독립.md"
               }
             }
           }
@@ -170,17 +170,24 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8cfa475286f26b30",
+  "active": "0047a872449aeab3",
   "lastOpenFiles": [
-    "Statistics 110/강의 인덱스.md",
-    "Statistics 110/확률 변수(Random Variables).md",
-    "Statistics 110/이산분포(Discrete Distribution).md",
     "Statistics 110/연속 분포(Continuous Distribution).md",
-    "Statistics 110/조건부 확률(Conditional Probability).md",
-    "Statistics 110/기하분포(Geometric Dstribution).md",
+    "Statistics 110/강의 인덱스.md",
     "Statistics 110/정규분포(Normal Distribution).md",
-    "Statistics 110/기반 개념.md",
+    "Statistics 110/이산분포(Discrete Distribution).md",
+    "Statistics 110/지수분포().md",
+    "Statistics 110/확률 변수(Random Variables).md",
     "확률변수(Random Variables).md",
+    "확률변수(Random Variables.md).md",
+    "확률변수(Random Variables.md",
+    "BERT/개념 정리.md",
+    "BERT/Abstract 요약.md",
+    "Statistics 110/기반 개념.md",
+    "BERT",
+    "Statistics 110/기하분포(Geometric Dstribution).md",
+    "기하분포(Geometric Dstribution.md",
+    "Statistics 110/조건부 확률(Conditional Probability).md",
     "Read Me.md",
     "Statistics 110/평균(Means, Expected Values).md",
     "선형대수/벡터.md",
@@ -192,16 +199,10 @@
     "Statistics 110/확률의 정의.md",
     "PyTorch/Troubleshooting.md",
     "PyTorch/Multi-GPU 학습.md",
-    "PyTorch/Tensor.md",
-    "Python/무제 파일.md",
     "Statistics 110/images/9-1.png",
     "Statistics 110/images",
     "Statistics 110/무제 파일.canvas",
     "그래프 이미지",
-    "Python/파일(Open).md",
-    "Python/간단한 메소드(lambda, map).md",
-    "Python/예외 처리(Excepetion Handling).md",
-    "Python/사전(dict).md",
     "무제 파일.canvas",
     "PyTorch",
     "Statistics 110",
