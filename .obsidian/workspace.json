@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics 110/독립 vs 조건부 독립.md",
+                "file": "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md",
                 "mode": "source",
                 "source": false
               }
@@ -26,18 +26,6 @@
               "type": "markdown",
               "state": {
                 "file": "Statistics 110/강의 인덱스.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6df7858370d83a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics 110/연속 분포(Continuous Distribution).md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Binom",
+                "query": "❓",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics 110/독립 vs 조건부 독립.md",
+                "file": "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics 110/독립 vs 조건부 독립.md",
+                "file": "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics 110/독립 vs 조건부 독립.md"
+                "file": "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md"
               }
             }
           }
@@ -172,8 +160,12 @@
   },
   "active": "0047a872449aeab3",
   "lastOpenFiles": [
-    "Statistics 110/연속 분포(Continuous Distribution).md",
+    "Statistics 110/적률생성함수(Moment Generating Function).md",
     "Statistics 110/강의 인덱스.md",
+    "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md",
+    "Statistics 110/연속 분포(Continuous Distribution).md",
+    "BERT/개념 정리.md",
+    "Statistics 110/독립 vs 조건부 독립.md",
     "Statistics 110/정규분포(Normal Distribution).md",
     "Statistics 110/이산분포(Discrete Distribution).md",
     "Statistics 110/지수분포().md",
@@ -181,7 +173,6 @@
     "확률변수(Random Variables).md",
     "확률변수(Random Variables.md).md",
     "확률변수(Random Variables.md",
-    "BERT/개념 정리.md",
     "BERT/Abstract 요약.md",
     "Statistics 110/기반 개념.md",
     "BERT",
@@ -194,11 +185,8 @@
     "Python/판다스(Pandas).md",
     "Python/넘파이(Numpy).md",
     "선형대수/선형대수학의 초석, 벡터.md",
-    "Statistics 110/독립 vs 조건부 독립.md",
     "Statistics 110/Birthday Problem.md",
     "Statistics 110/확률의 정의.md",
-    "PyTorch/Troubleshooting.md",
-    "PyTorch/Multi-GPU 학습.md",
     "Statistics 110/images/9-1.png",
     "Statistics 110/images",
     "Statistics 110/무제 파일.canvas",
