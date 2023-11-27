@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md",
+                "file": "NLP/03. Bag-of-Words.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md",
+                "file": "NLP/03. Bag-of-Words.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md",
+                "file": "NLP/03. Bag-of-Words.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md"
+                "file": "NLP/03. Bag-of-Words.md"
               }
             }
           }
@@ -146,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,13 +161,19 @@
   },
   "active": "0047a872449aeab3",
   "lastOpenFiles": [
+    "NLP/01. 자연어를 다루는 분야들.md",
+    "NLP/03. Bag-of-Words.md",
+    "NLP/02. NLP 의 발전 과정.md",
+    "Statistics 110/정규분포(Normal Distribution).md",
+    "선형대수/선형대수학의 초석, 벡터.md",
+    "NLP",
     "Statistics 110/적률생성함수(Moment Generating Function).md",
     "Statistics 110/강의 인덱스.md",
-    "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md",
     "Statistics 110/연속 분포(Continuous Distribution).md",
+    "Statistics 110/기하분포(Geometric Dstribution).md",
+    "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md",
     "BERT/개념 정리.md",
     "Statistics 110/독립 vs 조건부 독립.md",
-    "Statistics 110/정규분포(Normal Distribution).md",
     "Statistics 110/이산분포(Discrete Distribution).md",
     "Statistics 110/지수분포().md",
     "Statistics 110/확률 변수(Random Variables).md",
@@ -176,17 +183,12 @@
     "BERT/Abstract 요약.md",
     "Statistics 110/기반 개념.md",
     "BERT",
-    "Statistics 110/기하분포(Geometric Dstribution).md",
     "기하분포(Geometric Dstribution.md",
     "Statistics 110/조건부 확률(Conditional Probability).md",
     "Read Me.md",
     "Statistics 110/평균(Means, Expected Values).md",
     "선형대수/벡터.md",
     "Python/판다스(Pandas).md",
-    "Python/넘파이(Numpy).md",
-    "선형대수/선형대수학의 초석, 벡터.md",
-    "Statistics 110/Birthday Problem.md",
-    "Statistics 110/확률의 정의.md",
     "Statistics 110/images/9-1.png",
     "Statistics 110/images",
     "Statistics 110/무제 파일.canvas",
