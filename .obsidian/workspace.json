@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/사전(dict).md",
+                "file": "NLP/04. Word Embedding.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/사전(dict).md",
+                "file": "NLP/04. Word Embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/사전(dict).md",
+                "file": "NLP/04. Word Embedding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/사전(dict).md"
+                "file": "NLP/04. Word Embedding.md"
               }
             }
           }
@@ -160,6 +160,8 @@
   },
   "active": "59a9d3be86396fe5",
   "lastOpenFiles": [
+    "Python/사전(dict).md",
+    "Git/Git.md",
     "Statistics 110/결합분포, 주변분포, 조건분포.md",
     "Statistics 110/강의 인덱스.md",
     "NLP/04. Word Embedding.md",
@@ -168,7 +170,6 @@
     "NLP/03. Bag-of-Words.md",
     "Statistics 110/확률 변수(Random Variables).md",
     "Statistics 110/확률의 정의.md",
-    "Git/Git.md",
     "Git",
     "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md",
     "Statistics 110/연속 분포(Continuous Distribution).md",
@@ -188,7 +189,6 @@
     "Statistics 110/지수분포().md",
     "확률변수(Random Variables).md",
     "확률변수(Random Variables.md).md",
-    "확률변수(Random Variables.md",
     "BERT",
     "Statistics 110/images/9-1.png",
     "Statistics 110/images",
