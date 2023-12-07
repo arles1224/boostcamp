@@ -13,9 +13,8 @@ $n$번째 날에 해가 뜰 확률변수 $X_1, X_2, \cdots$에 대하여 만약 
 - 베이지안의 관점
 	- $p$를 확률 변수로 다룬다.
 	- $p \sim Unif(0,1)$라고 하자(사전확률, prior)
-		- ❓균등분포는 완전한 불확실성을 반영하기 때문
 	- $S_n=X_1 + \cdots + X_n$
-	- $S_n | p \sim Bin(n,p)$, $p \sim Unif(0,1)$ ❓$S_n$ given $p$가 $Bin(n,p)$라는 의미인가? 이게 무슨 말이지?
+	- $S_n | p \sim Bin(n,p)$, $p \sim Unif(0,1)$
 	- 사후분포는 $p|S_n$으로 $S$를 관찰할 수 있다고 가정한다.
 	- 지난 $n$일 동안 해가 떴을 때 내일 해가 뜰 확률: $P(X_{n+1}=1|S_n=n)$
 	- PDF $f$: $f(p|S_n=k)= \frac{P(S_n=k|p)f(p)}{P(S_n=k)} \propto p^k(1-p)^{n-k}$

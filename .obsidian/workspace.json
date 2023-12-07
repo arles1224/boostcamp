@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0047a872449aeab3",
+            "id": "59a9d3be86396fe5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics 110/결합분포(Joint Distribution).md",
+                "file": "Python/사전(dict).md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 224.50390243530273
   },
   "right": {
     "id": "6bf25aef3af8499f",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics 110/결합분포(Joint Distribution).md",
+                "file": "Python/사전(dict).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics 110/결합분포(Joint Distribution).md",
+                "file": "Python/사전(dict).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics 110/결합분포(Joint Distribution).md"
+                "file": "Python/사전(dict).md"
               }
             }
           }
@@ -146,7 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 273.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,23 +158,28 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0047a872449aeab3",
+  "active": "59a9d3be86396fe5",
   "lastOpenFiles": [
+    "Statistics 110/결합분포, 주변분포, 조건분포.md",
     "Statistics 110/강의 인덱스.md",
+    "NLP/04. Word Embedding.md",
+    "Statistics 110/조건분포(Conditional Distribution).md",
+    "Statistics 110/적률생성함수(Moment Generating Function).md",
+    "NLP/03. Bag-of-Words.md",
     "Statistics 110/확률 변수(Random Variables).md",
+    "Statistics 110/확률의 정의.md",
+    "Git/Git.md",
+    "Git",
+    "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md",
+    "Statistics 110/연속 분포(Continuous Distribution).md",
     "Statistics 110/기반 개념.md",
-    "Statistics 110/결합분포(Joint Distribution).md",
     "Statistics 110/조건부 확률(Conditional Probability).md",
     "Statistics 110/정규분포(Normal Distribution).md",
-    "Statistics 110/적률생성함수(Moment Generating Function).md",
     "Statistics 110/이산분포(Discrete Distribution).md",
-    "Statistics 110/연속 분포(Continuous Distribution).md",
-    "Statistics 110/라플라스의 후속 규칙(Laplace Rule of Succession.md).md",
     "Statistics 110/독립 vs 조건부 독립.md",
     "Statistics 110/기하분포(Geometric Dstribution).md",
     "NLP/01. 자연어를 다루는 분야들.md",
     "NLP/02. NLP 의 발전 과정.md",
-    "NLP/03. Bag-of-Words.md",
     "NLP/KoNLPy/무제 파일.md",
     "NLP/KoNLPy",
     "선형대수/선형대수학의 초석, 벡터.md",
@@ -184,11 +189,7 @@
     "확률변수(Random Variables).md",
     "확률변수(Random Variables.md).md",
     "확률변수(Random Variables.md",
-    "BERT/Abstract 요약.md",
     "BERT",
-    "기하분포(Geometric Dstribution.md",
-    "Read Me.md",
-    "Statistics 110/평균(Means, Expected Values).md",
     "Statistics 110/images/9-1.png",
     "Statistics 110/images",
     "Statistics 110/무제 파일.canvas",
